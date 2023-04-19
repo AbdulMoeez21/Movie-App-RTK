@@ -36,32 +36,33 @@ const MovieDetail = () => {
                 {data.imdbVotes}
               </span>
               <span>
-                Runtime <i className="fa fa-film"></i> : {data.Runtime}
+                Runtime <i class="fa fa-film" aria-hidden="true"></i> : {data.Runtime}
               </span>
               <span>
                 Year <i className="fa fa-calendar"></i> : {data.Year}
               </span>
             </div>
             <div className="movie-plot">{data.Plot}</div>
+            <br />
             <div className="movie-info">
               <div>
-                <span>Director</span>
+                <span>Director : </span>
                 <span>{data.Director}</span>
               </div>
               <div>
-                <span>Stars</span>
+                <span>Stars : </span>
                 <span>{data.Actors}</span>
               </div>
               <div>
-                <span>Generes</span>
+                <span>Generes : </span>
                 <span>{data.Genre}</span>
               </div>
               <div>
-                <span>Languages</span>
+                <span>Languages : </span>
                 <span>{data.Language}</span>
               </div>
               <div>
-                <span>Awards</span>
+                <span>Awards : </span>
                 <span>{data.Awards}</span>
               </div>
             </div>
